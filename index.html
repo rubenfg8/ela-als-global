@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>ELA / ALS Global Patterns - Formulario Completo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'en,fr,it,de,pt'}, 'google_translate_element');
+    }
+  </script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body>
+  <div id="google_translate_element"></div>
+  <h1>ELA / ALS Global Patterns – Formulario Completo</h1>
+  <p>Buscamos patrones comunes en personas con ELA / ALS para ayudar a descubrir posibles causas y factores desencadenantes.</p>
+  <p>Please answer as many questions as possible. All answers are anonymous and confidential.</p>
+
+  <form action="https://formspree.io/f/xqalpppq" method="POST">
+    <label>Edad actual:</label><input type="number" name="edad_actual" required><br>
+    <label>Edad cuando aparecieron los primeros síntomas:</label><input type="number" name="edad_sintomas"><br>
+    <label>Sexo:</label><select name="sexo"><option>Hombre</option><option>Mujer</option><option>Otro</option></select><br>
+    <label>Nacionalidad:</label><input type="text" name="nacionalidad"><br>
+    <label>Ciudad y país de residencia actual:</label><input type="text" name="residencia"><br>
+    <label>¿Desde cuándo vives allí? ¿Viviste en otros lugares?:</label><textarea name="lugares_previos"></textarea><br>
+    <label>Zonas de residencia (marca todas):</label><br>
+    <input type="checkbox" name="zona_urbana"> Urbana<br>
+    <input type="checkbox" name="zona_rural"> Rural<br>
+    <input type="checkbox" name="zona_agricola"> Cerca de zonas agrícolas<br>
+    <input type="checkbox" name="zona_industrial"> Cerca de zonas industriales<br>
+    <input type="checkbox" name="zona_tension"> Cerca de torres de alta tensión / antenas<br>
+
+    <h2>Antecedentes</h2>
+    <label>¿Antecedentes familiares con ELA?:</label><input type="text" name="familia_ela"><br>
+    <label>¿Antecedentes de otras enfermedades?:</label><textarea name="familia_otras"></textarea><br>
+    <label>Condiciones personales (marca):</label><br>
+    <input type="checkbox" name="hipotiroidismo"> Hipotiroidismo / hipertiroidismo<br>
+    <input type="checkbox" name="fibromialgia"> Fibromialgia<br>
+    <input type="checkbox" name="sueño"> Trastornos del sueño<br>
+    <input type="checkbox" name="autoinmune"> Enfermedades autoinmunes<br>
+    <input type="checkbox" name="intestinal"> Problemas intestinales<br>
+    <label>Otros:</label><input type="text" name="otras_condiciones"><br>
+    <label>¿Pruebas genéticas?:</label><input type="text" name="genetica"><br>
+    <label>¿Traumatismos sufridos?:</label><textarea name="traumatismos"></textarea><br>
+
+    <h2>Exposición Ambiental</h2>
+    <label>¿Has trabajado con...? (marca):</label><br>
+    <input type="checkbox" name="solventes"> Solventes<br>
+    <input type="checkbox" name="metales"> Metales pesados<br>
+    <input type="checkbox" name="pesticidas"> Pesticidas / fertilizantes<br>
+    <input type="checkbox" name="soldadura"> Soldaduras / radiación / amianto<br>
+    <input type="checkbox" name="plasticos"> Plásticos, tintes, pegamentos<br>
+
+    <label>Frecuencia de exposición a químicos:</label><select name="exposicion_quimicos">
+      <option>Diario</option><option>Semanal</option><option>Ocasional</option><option>Nunca</option>
+    </select><br>
+
+    <label>Tipo de agua habitual:</label><select name="agua">
+      <option>Del grifo</option><option>Filtrada</option><option>Embotellada</option><option>De pozo</option>
+    </select><br>
+
+    <label>¿Vives cerca de zonas industriales / torres eléctricas?:</label>
+    <select name="proximidad_industrial">
+      <option>Sí</option><option>No</option><option>No lo sé</option>
+    </select><br>
+
+    <h2>Estilo de vida</h2>
+    <label>Alimentación en los últimos 10 años:</label><textarea name="alimentacion"></textarea><br>
+    <label>Frecuencia de refrescos:</label><select name="refrescos">
+      <option>Diario</option><option>Varias veces por semana</option><option>Ocasional</option><option>Nunca</option>
+    </select><br>
+    <label>¿Edulcorantes?:</label><select name="edulcorantes">
+      <option>Sí</option><option>No</option><option>No lo sé</option>
+    </select><br>
+    <label>Esfuerzo físico previo:</label><select name="esfuerzo">
+      <option>Muy intenso</option><option>Moderado</option><option>Ligero</option><option>Sedentario</option>
+    </select><br>
+    <label>¿Deporte?:</label><select name="deporte">
+      <option>Diario</option><option>Varias veces por semana</option><option>Ocasional</option><option>Nada</option>
+    </select><br>
+    <label>¿Competiste profesionalmente?:</label><input type="text" name="competicion"><br>
+    <label>Ritmo de vida:</label><select name="ritmo">
+      <option>Tranquilo</option><option>Acelerado</option><option>Muy estresante</option>
+    </select><br>
+    <label>¿Estrés emocional reciente?:</label><textarea name="estres_emocional"></textarea><br>
+    <label>¿Fumas / has fumado?:</label><input type="text" name="tabaco"><br>
+    <label>¿Consumo de alcohol?:</label><input type="text" name="alcohol"><br>
+    <label>¿Tomas suplementos o medicación?:</label><input type="text" name="suplementos"><br>
+    <label>¿Dormías bien antes?:</label><input type="text" name="sueno"><br>
+
+    <h2>Inicio y evolución</h2>
+    <label>Primer síntoma:</label><input type="text" name="primer_sintoma"><br>
+    <label>¿Dónde empezó?:</label><input type="text" name="ubicacion_inicio"><br>
+    <label>Evolución de la enfermedad:</label><textarea name="evolucion"></textarea><br>
+    <label>Factores que aceleran:</label><textarea name="factores_aceleran"></textarea><br>
+    <label>¿Qué alivia?:</label><textarea name="alivia"></textarea><br>
+    <label>Tratamientos alternativos:</label><textarea name="alternativas"></textarea><br>
+    <label>Relación alimentación/síntomas:</label><textarea name="relacion_comida"></textarea><br>
+    <label>Cambios digestivos:</label><textarea name="digestivo"></textarea><br>
+
+    <h2>Reflexión</h2>
+    <label>¿Qué crees que influyó?:</label><textarea name="reflexion"></textarea><br>
+    <label>¿Algo más que quieras compartir?:</label><textarea name="comentario_final"></textarea><br>
+
+    <label><input type="checkbox" name="consentimiento" required> Acepto el uso anónimo de mis respuestas para fines científicos</label><br><br>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
