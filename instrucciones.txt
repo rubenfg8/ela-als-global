@@ -1,0 +1,11 @@
+
+INSTRUCCIONES PARA PUBLICAR TU WEB
+
+1. Abre GitHub.com y crea una cuenta si no tienes una.
+2. Crea un nuevo repositorio llamado: ela-als-global
+3. Sube los archivos del ZIP a ese repositorio.
+4. Ve a Settings > Pages y selecciona la rama 'main' y carpeta 'root'.
+5. Tu web estará disponible en: https://tuusuario.github.io/ela-als-global
+
+Puedes editar el archivo index.html para cambiar texto o preguntas fácilmente.
+Recuerda reemplazar el 'your-form-id' en index.html con el ID real de tu formulario de Formspree.
