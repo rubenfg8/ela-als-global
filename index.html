@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>ELA / ALS Global Patterns - Formulario Extendido</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'en,fr,it,de,pt'}, 'google_translate_element');
+    }
+  </script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body>
+  <div id="google_translate_element"></div>
+  <h1>ELA / ALS Global Patterns – Formulario Extendido</h1>
+  <p>Buscamos patrones comunes en personas con ELA / ALS para ayudar a descubrir posibles causas y factores desencadenantes.</p>
+  <p>Please answer as many questions as possible. All answers are anonymous and confidential.</p>
+
+  <form action="https://formspree.io/f/xqalpppq" method="POST">
+    <label>Edad actual:</label><input type="number" name="edad_actual" required><br>
+    <label>Edad cuando aparecieron los primeros síntomas:</label><input type="number" name="edad_sintomas" required><br>
+    <label>Sexo:</label><select name="sexo"><option>Hombre</option><option>Mujer</option><option>Otro</option></select><br>
+    <label>Nacionalidad:</label><input type="text" name="nacionalidad"><br>
+    <label>Ciudad y país de residencia actual:</label><input type="text" name="residencia"><br>
+    <label>¿Desde cuándo vives allí? ¿Viviste en otros lugares?:</label><textarea name="lugares_previos"></textarea><br>
+    <label>Zonas de residencia (marca todas):</label><br>
+    <input type="checkbox" name="zona_urbana"> Urbana<br>
+    <input type="checkbox" name="zona_rural"> Rural<br>
+    <input type="checkbox" name="zona_agricola"> Cerca de zonas agrícolas<br>
+    <input type="checkbox" name="zona_industrial"> Cerca de zonas industriales<br>
+    <input type="checkbox" name="zona_tension"> Cerca de torres de alta tensión / antenas<br>
+
+    <label><input type="checkbox" name="consentimiento" required> Acepto el uso anónimo de mis respuestas para fines científicos</label><br><br>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
